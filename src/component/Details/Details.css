@@ -1,0 +1,89 @@
+.Details {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  margin: 0 auto;
+}
+
+.details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  text-align: justify;
+  gap: 1rem;
+}
+
+.details h1 {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.details h3 {
+  font-size: 1.5rem;
+}
+
+.details p {
+  color: rgba(0, 0, 0, 0.7)
+}
+
+.genres {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+
+.genre {
+  font-size: 1rem;
+  background: orange;
+  border-radius: 3rem;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.average_rating {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+
+.productionCompanies {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.productionCompanies img {
+  width: 5rem;
+}
+
+.poster img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.rate_btn {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+}
+
+.rate_btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  transition: 700ms;
+}
+
+.my_rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+}

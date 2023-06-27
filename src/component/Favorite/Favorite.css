@@ -1,0 +1,14 @@
+.Favorite {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  background-color: transparent;
+  padding: 1.5rem;
+}
+
+.Favorite img {
+  width: calc((100vw - 6rem)/4);
+  border-radius: 1rem 1rem 0 0;
+}
+

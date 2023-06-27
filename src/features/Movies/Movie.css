@@ -1,0 +1,71 @@
+.MovieList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  background-color: transparent;
+  padding: 1.5rem;
+}
+
+.MovieList img {
+  width: calc((100vw - 6rem)/4);
+  border-radius: 1rem 1rem 0 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@400;500;600;700&display=swap');
+
+.Movie-content a {
+  text-decoration: none;
+  font-family: 'Ysabeau Office', sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+.Movie-content {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.Movie {
+  background-color: transparent;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.Movie:hover {
+  transition: 300ms;
+}
+
+.Movie:hover {
+  transform: translateY(-5px);
+  transition: 300ms;
+}
+
+.Movie:not(:hover) {
+  transform: translateY(5px);
+  transition: 300ms;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.like-btn {
+  padding: 1rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.44);
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}

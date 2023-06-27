@@ -1,0 +1,32 @@
+.Login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+
+.submitbtn {
+  padding: 1rem 0 1rem 0;
+  width: 40%;
+  background-color: white;
+  color: rgba(0,0,0,0.8);
+  border: 2px solid rgba(0,0,0,0.8);;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.submitbtn:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  transition: 700ms;
+}
